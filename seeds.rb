@@ -19,9 +19,9 @@ module Seeds
     MTL
     TBL
     PIT
-    CLS
+    CBJ
     NYR
-    PHL
+    PHI
       )
 
 end

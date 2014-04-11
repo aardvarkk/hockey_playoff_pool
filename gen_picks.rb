@@ -1,8 +1,12 @@
 require './teams'
 require './seeds'
 
-@gp = {}
+sims = 50000
+
 @results = []
+
+@gp = {}
+Teams::SHORT.each{ |t| @gp[t] = 0.0 }
 
 def simulate_game(t1, r1, t2, r2)
   # puts "Simulate Game"
@@ -11,8 +15,6 @@ def simulate_game(t1, r1, t2, r2)
   w1 = w2 = false
 
   # Increment games played
-  @gp[t1] ||= 0.0
-  @gp[t2] ||= 0.0
   @gp[t1] += 1
   @gp[t2] += 1
 
@@ -77,6 +79,21 @@ def simulate_round(matchups)
   return winners
 end
 
+def load_players(filename)
+  players = []
+  f = File.open(filename, 'r')
+  f.each_line.each_slice(4) do |ls|
+    player = {}
+    player[:name] = ls[0].strip!
+    player[:team] = ls[1].split.last
+    player[:gp]   = ls[2].to_i
+    player[:pts]  = ls[3].to_i
+    players << player
+  end
+  f.close
+  return players
+end
+
 # puts Teams::SHORT
 # Teams::SHORT.each_with_index{|t,i| puts "#{i+1} #{t}"}
 # puts Teams::LONG
@@ -84,8 +101,6 @@ end
 
 # Check that everybody has played the same number of games
 Teams::RECORDS.each{|k,v| puts "#{k} has incorrect record" if v.inject(:+) != 82}
-
-sims = 1000
 
 @results = []
 for i in 1..sims
@@ -118,6 +133,7 @@ puts @gp
 # puts @results
 
 # Choose most common result for each round
+# Choose winning teams in each bracket
 common_results = []
 for i in 0..@results.length-1
   common_results[i] = {}
@@ -133,9 +149,33 @@ for i in 0..@results.length-1
   end
 end
 
-# Choose winning teams in each bracket
-
-
 # Calculate expected points based on number of games played * average PPG
+player_sets = {}
+player_sets[:fwd] = load_players('fwd')
+player_sets[:def] = load_players('def')
+player_sets[:gls]  = load_players('gls')
 
-# Check for injuries
+tops = {}
+player_sets.each do |key,ps|
+  ps.each do |f|
+    f[:ppg] = f[:pts].to_f / f[:gp]
+    f[:playoff_pts] = f[:ppg] * @gp[f[:team].to_sym]
+
+    # We reward people who played the whole season
+    # f[:playoff_pts] *= f[:gp].to_f / 82
+
+    # We ignore people who played less than half a season
+    f[:playoff_pts] *= f[:gp] >= 41 ? 1 : 0
+  end
+
+  tops[key] = ps.sort_by{|p| p[:playoff_pts]}.reverse
+end
+
+puts "FORWARDS"
+puts tops[:fwd][0..9]
+puts "DEFENSE"
+puts tops[:def][0..3]
+puts "GOALIES"
+puts tops[:gls][0..1]
+
+# Check for injuries...
