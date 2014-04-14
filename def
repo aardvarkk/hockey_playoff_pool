@@ -4,7 +4,7 @@ VAN
 0
 Bryan Allen
 ANA
-67
+68
 10
 Conor Allen
 NYR
@@ -16,8 +16,8 @@ DET
 1
 Karl Alzner
 WSH
-80
-17
+82
+18
 Keith Aulie
 TBL
 15
@@ -32,51 +32,51 @@ TBL
 10
 Tyson Barrie
 COL
-63
+64
 38
 Matt Bartkowski
 BOS
-62
+64
 18
 Victor Bartley
 NSH
-49
+50
 6
 Francois Beauchemin
 ANA
-69
-16
+70
+17
 Nathan Beaulieu
 MTL
 17
 2
 Brett Bellemore
 CAR
-62
+64
 8
 Anton Belov
 EDM
-56
+57
 7
 Jordie Benn
 DAL
-76
+78
 20
 Andre Benoit
 COL
-77
+79
 28
 Kevin Bieksa
 VAN
-75
+76
 24
 Chad Billins
 CGY
-8
+10
 3
 Jonathon Blum
 MIN
-14
+15
 1
 Zach Bogosian
 WPG
@@ -88,55 +88,55 @@ OTT
 1
 Robert Bortuzzo
 PIT
-53
+54
 10
 Francis Bouillon
 MTL
-51
+52
 6
 Jay Bouwmeester
 STL
-80
+82
 37
 Johnny Boychuk
 BOS
-73
+75
 23
 Dan Boyle
 SJS
-73
-33
+75
+36
 Justin Braun
 SJS
-80
+82
 17
 Christopher Breen
 CGY
-8
-1
+9
+2
 Eric Brewer
 TBL
-75
-15
+77
+17
 TJ Brodie
 CGY
-80
-30
+81
+31
 Jonas Brodin
 MIN
-78
+79
 19
 Sheldon Brookbank
 CHI
-46
+48
 7
 Julien Brouillette
 WSH
-8
+10
 2
 Chris Butler
 CGY
-80
+82
 16
 Dustin Byfuglien
 WPG
@@ -148,32 +148,32 @@ LAK
 0
 Brian Campbell
 FLA
-81
-36
+82
+37
 Matt Carkner
 NYI
-51
+53
 3
 Matthew Carle
 TBL
-80
+82
 31
 John Carlson
 WSH
-80
-36
+82
+37
 Connor Carrick
 WSH
-32
+34
 6
 Cody Ceci
 OTT
-47
+49
 9
 Zdeno Chara
 BOS
-76
-39
+77
+40
 Ben Chiarot
 WPG
 1
@@ -184,24 +184,24 @@ WPG
 12
 Braydon Coburn
 PHI
-80
+82
 17
 Carlo Colaiacovo
 STL
-23
+25
 4
 Ian Cole
 STL
-45
+46
 11
 Kevin Connauton
 DAL
-35
+36
 8
 Frank Corrado
 VAN
-13
-0
+15
+1
 Joe Corvo
 OTT
 25
@@ -216,48 +216,48 @@ OTT
 15
 Mark Cundari
 CGY
-2
+4
 0
 Kevin Czuczman
 NYI
-11
+13
 2
 Trevor Daley
 DAL
-66
-23
+67
+25
 Calvin de Haan
 NYI
 51
 16
 Danny DeKeyser
 DET
-64
+65
 23
 Michael Del Zotto
 NYR, NSH
-66
+67
 16
 Jason Demers
 SJS
-73
+75
 34
 Simon Despres
 PIT
-33
+34
 5
 Raphael Diaz
 MTL, VAN, NYR
-62
+63
 15
 Brenden Dillon
 DAL
-79
+80
 17
 Matt Donovan
 NYI
-50
-15
+52
+16
 Drew Doughty
 LAK
 78
@@ -272,39 +272,43 @@ PIT
 1
 Alexander Edler
 VAN
-61
-21
+63
+22
 Christian Ehrhoff
 BUF
-78
+79
 33
 Mattias Ekholm
 NSH
-60
-7
+62
+9
 Oliver Ekman-Larsson
 PHX
-78
+80
 44
 Keaton Ellerby
 WPG
 51
 6
+Stefan Elliott
+COL
+1
+1
 Ryan Ellis
 NSH
-78
-24
+80
+27
 Alexei Emelin
 MTL
-58
+59
 17
 Deryk Engelland
 PIT
-55
+56
 12
 Tobias Enstrom
 WPG
-81
+82
 30
 Jonathan Ericsson
 DET
@@ -320,15 +324,15 @@ WSH
 4
 Justin Falk
 NYR
-20
+21
 2
 Justin Faulk
 CAR
-74
-29
+76
+32
 Mark Fayne
 NJD
-70
+72
 11
 Taylor Fedun
 EDM
@@ -352,24 +356,24 @@ DAL
 1
 Cam Fowler
 ANA
-68
+70
 36
 Cody Franson
 TOR
-78
+79
 33
 Mark Fraser
 TOR, EDM
-41
+42
 2
 Jake Gardiner
 TOR
-79
+80
 31
 Jason Garrison
 VAN
-79
-32
+81
+33
 Cameron Gaunce
 DAL
 9
@@ -384,7 +388,7 @@ FLA
 28
 Hal Gill
 PHI
-4
+6
 0
 Matt Gilroy
 FLA
@@ -392,35 +396,39 @@ FLA
 2
 Mark Giordano
 CGY
-62
-46
+64
+47
 Dan Girardi
 NYR
 81
 24
 Tim Gleason
 CAR, TOR
-55
+56
 6
 Alex Goligoski
 DAL
-79
-41
+81
+42
 Cody Goloubef
 CBJ
 5
 0
 Sergei Gonchar
 DAL
-74
-21
+76
+22
 Josh Gorges
 MTL
-65
+66
 14
 Brandon Gormley
 PHX
-3
+5
+0
+Petter Granberg
+TOR
+1
 0
 Alex Grant
 ANA
@@ -436,11 +444,11 @@ WSH
 38
 Andy Greene
 NJD
-80
+82
 32
 Matt Greene
 LAK
-37
+38
 6
 Nicklas Grossmann
 PHI
@@ -448,19 +456,19 @@ PHI
 14
 Eric Gryba
 OTT
-55
+57
 11
 Radko Gudas
 TBL
-71
+73
 22
 Erik Gudbranson
 FLA
-64
+65
 9
 Nate Guenin
 COL
-66
+68
 9
 Carl Gunnarsson
 TOR
@@ -468,47 +476,47 @@ TOR
 17
 Erik Gustafsson
 PHI
-29
+31
 10
 Ron Hainsey
 CAR
-80
+82
 15
 Dan Hamhuis
 VAN
-78
+79
 22
 Dougie Hamilton
 BOS
-62
+64
 25
 Travis Hamonic
 NYI
-67
-17
+69
+18
 Scott Hannan
 SJS
-55
+56
 12
 Jay Harrison
 CAR
-66
-14
+68
+15
 Peter Harrold
 NJD
-32
+33
 4
 Victor Hedman
 TBL
-73
+75
 55
 Jan Hejda
 COL
-76
+78
 17
 Thomas Hickey
 NYI
-80
+82
 22
 Jack Hillen
 WSH
@@ -516,12 +524,12 @@ WSH
 1
 Niklas Hjalmarsson
 CHI
-80
+81
 26
 Nick Holden
 COL
-52
-24
+54
+25
 Brad Hunt
 EDM
 3
@@ -532,51 +540,51 @@ COL
 0
 Matt Irwin
 SJS
-60
-18
+62
+19
 Barret Jackman
 STL
-78
+79
 15
 Erik Johnson
 COL
-78
+80
 39
 Jack Johnson
 CBJ
-80
-31
+82
+33
 Seth Jones
 NSH
-75
+77
 25
 Roman Josi
 NSH
-70
-37
+72
+40
 Ed Jovanovski
 FLA
-36
+37
 5
 Erik Karlsson
 OTT
-80
-72
+82
+74
 Duncan Keith
 CHI
 79
 61
 Jakub Kindl
 DET
-64
-18
+66
+19
 Oscar Klefbom
 EDM
-16
+17
 3
 Kevin Klein
 NSH, NYR
-76
+77
 9
 Rostislav Klesla
 PHX
@@ -584,87 +592,87 @@ PHX
 4
 Mike Komisarek
 CAR
-30
-2
+32
+4
 Dmitry Korobov
 TBL
 3
 1
 Michael Kostka
 CHI, TBL
-26
-10
+28
+11
 Niklas Kronwall
 DET
-78
+79
 49
 Torey Krug
 BOS
-77
-38
+79
+40
 Dmitry Kulikov
 FLA
-80
+81
 19
 Philip Larsen
 EDM
-29
-11
+30
+12
 Adam Larsson
 NJD
-24
+26
 3
 Brian Lashoff
 DET
-73
-5
+75
+6
 Nick Leddy
 CHI
-80
+82
 31
 Jordan Leopold
 STL
-26
+27
 6
 Kris Letang
 PIT
-35
-19
+37
+22
 John-Michael Liles
 TOR, CAR
-39
+41
 9
 Hampus Lindholm
 ANA
-76
-29
+78
+30
 Ben Lovejoy
 ANA
-76
-17
+78
+18
 Olli Maatta
 PIT
-76
+78
 29
 Andrew MacDonald
 NYI, PHI
-81
-27
+82
+28
 Alexey Marchenko
 DET
 1
 0
 Martin Marincin
 EDM
-43
-5
+44
+6
 Andrei Markov
 MTL
-80
+81
 43
 Paul Martin
 PIT
-37
+39
 15
 Radek Martinek
 NYI
@@ -672,20 +680,20 @@ NYI
 3
 Alec Martinez
 LAK
-60
+61
 22
 Scott Mayfield
 NYI
-3
+5
 0
 Jamie McBain
 BUF
-67
-16
+69
+17
 Jake McCabe
 BUF
-5
-0
+7
+1
 Ryan McDonagh
 NYR
 77
@@ -708,35 +716,35 @@ WPG
 0
 Jon Merrill
 NJD
-50
-10
+52
+11
 Andrej Meszaros
 PHI, BOS
-51
+52
 22
 Marc Methot
 OTT
-73
+75
 23
 Zbynek Michalek
 PHX
-58
-9
+59
+10
 Kevan Miller
 BOS
-45
+47
 6
 Willie Mitchell
 LAK
-75
-11
+76
+12
 John Moore
 NYR
-73
+74
 15
 Derek Morris
 PHX
-62
+63
 17
 Mike Mottau
 FLA
@@ -744,7 +752,7 @@ FLA
 0
 Connor Murphy
 PHX
-28
+30
 8
 Ryan Murphy
 CAR
@@ -756,11 +764,11 @@ MTL
 2
 Ryan Murray
 CBJ
-65
+66
 21
 Jake Muzzin
 LAK
-75
+76
 24
 Tyler Myers
 BUF
@@ -768,7 +776,7 @@ BUF
 22
 Patrik Nemeth
 DAL
-6
+8
 0
 Aaron Ness
 NYI
@@ -776,20 +784,20 @@ NYI
 3
 Nikita Nikitin
 CBJ
-65
+66
 15
 Matt Niskanen
 PIT
-80
-45
+81
+46
 Shane O'Brien
 CGY
 45
 3
 Johnny Oduya
 CHI
-75
-15
+77
+16
 Jamie Oleksiak
 DAL
 7
@@ -800,43 +808,43 @@ WSH
 10
 Dylan Olsen
 FLA
-43
+44
 12
 Dmitry Orlov
 WSH
-52
-10
+54
+11
 Brooks Orpik
 PIT
-71
+72
 13
 Xavier Ouellet
 DET
-3
+4
 0
 Adam Pardy
 WPG
-59
-5
+60
+6
 Alex Petrovic
 FLA
 7
 1
 Jeff Petry
 EDM
-79
-16
+80
+17
 Dion Phaneuf
 TOR
-79
+80
 31
 Chris Phillips
 OTT
-68
+70
 15
 Alex Pietrangelo
 STL
-80
+81
 51
 Joe Piskula
 NSH
@@ -844,31 +852,31 @@ NSH
 0
 Roman Polak
 STL
-70
+72
 13
 Paul Postma
 WPG
-19
-2
+20
+3
 Corey Potter
 EDM, BOS
-18
+19
 5
 Nate Prosser
 MIN
-52
+53
 8
 Dalton Prout
 CBJ
-48
+49
 6
 Mark Pysyk
 BUF
-43
+44
 7
 Kyle Quincey
 DET
-80
+82
 13
 Jonathan Racine
 FLA
@@ -876,39 +884,39 @@ FLA
 0
 Paul Ranger
 TOR
-52
+53
 14
 Zach Redmond
 WPG
-9
-2
+10
+3
 Robyn Regehr
 LAK
-78
-13
+79
+14
 Morgan Rielly
 TOR
-72
+73
 27
 Rasmus Ristolainen
 BUF
-32
-3
+34
+4
 Colby Robak
 FLA
-15
+16
 2
 Stephane Robidas
 DAL, ANA
-36
+38
 10
 Aaron Rome
 DAL
-24
+25
 1
 Michal Rozsival
 CHI
-40
+42
 8
 Chad Ruhwedel
 BUF
@@ -916,15 +924,15 @@ BUF
 1
 David Rundblad
 PHX, CHI
-16
+17
 1
 Kris Russell
 CGY
-66
-28
+68
+29
 Sami Salo
 TBL
-70
+71
 17
 Bryce Salvador
 NJD
@@ -944,19 +952,19 @@ VAN
 0
 David Savard
 CBJ
-68
-14
+70
+15
 Luca Sbisa
 ANA
-29
+30
 6
 Marco Scandella
 MIN
-75
+76
 17
 Luke Schenn
 PHI
-77
+79
 12
 Cameron Schilling
 WSH
@@ -972,19 +980,19 @@ WSH
 6
 Justin Schultz
 EDM
-73
-32
+74
+33
 Nick Schultz
 EDM, CBJ
-68
+69
 5
 Rob Scuderi
 PIT
-51
+53
 4
 Brent Seabrook
 CHI
-80
+82
 41
 Dennis Seidenberg
 BOS
@@ -996,7 +1004,7 @@ CAR
 44
 Kevin Shattenkirk
 STL
-79
+81
 45
 Ladislav Smid
 EDM, CGY
@@ -1004,23 +1012,27 @@ EDM, CGY
 8
 Brendan Smith
 DET
-69
+71
 19
 Derek Smith
 CGY
 14
 1
+Ryan Sproul
+DET
+1
+0
 Jared Spurgeon
 MIN
-66
-25
+67
+26
 Marc Staal
 NYR
-71
+72
 14
 Ryan Stanton
 VAN
-62
+64
 16
 Karl Stollery
 COL
@@ -1028,15 +1040,15 @@ COL
 0
 Michael Stone
 PHX
-69
+70
 21
 Clayton Stoner
 MIN
-62
+63
 5
 Tyson Strachan
 WSH
-16
+18
 2
 Brian Strait
 NYI
@@ -1044,23 +1056,23 @@ NYI
 9
 Anton Stralman
 NYR
-80
+81
 13
 Mark Streit
 PHI
-80
-40
+82
+44
 Brad Stuart
 SJS
-59
+61
 11
 Mark Stuart
 WPG
-68
-12
+69
+13
 P.K. Subban
 MTL
-81
+82
 53
 Alexander Sulzer
 BUF
@@ -1068,20 +1080,20 @@ BUF
 2
 Chris Summers
 PHX
-17
+18
 3
 Andrej Sustr
 TBL
-41
+43
 8
 Ryan Suter
 MIN
-81
+82
 43
 Henrik Tallinder
 BUF
-62
-7
+64
+8
 Christopher Tanev
 VAN
 64
@@ -1092,8 +1104,8 @@ TBL
 0
 Kimmo Timonen
 PHI
-76
-33
+77
+35
 Jarred Tinordi
 MTL
 22
@@ -1104,11 +1116,11 @@ BOS
 0
 Jacob Trouba
 WPG
-64
-28
+65
+29
 Fedor Tyutin
 CBJ
-67
+69
 26
 Alexander Urbom
 WSH
@@ -1116,44 +1128,44 @@ WSH
 2
 Sami Vatanen
 ANA
-47
-19
+48
+21
 Lubomir Visnovsky
 NYI
 24
 11
 Marc-Edouard Vlasic
 SJS
-80
+81
 24
 Anton Volchenkov
 NJD
-55
+56
 8
 Slava Voynov
 LAK
-81
-33
+82
+34
 David Warsofsky
 BOS
 6
 2
 Mike Weaver
 FLA, MTL
-71
+72
 13
 Mike Weber
 BUF
-66
-8
+68
+9
 Shea Weber
 NSH
-77
-53
+79
+56
 Yannick Weber
 VAN
-47
-9
+49
+10
 Patrick Wey
 WSH
 9
@@ -1168,23 +1180,23 @@ CGY
 21
 Patrick Wiercioch
 OTT
-51
-22
+53
+23
 Ryan Wilson
 COL
-26
-5
+28
+6
 James Wisniewski
 CBJ
-73
-50
+75
+51
 Tyler Wotherspoon
 CGY
 14
 4
 Keith Yandle
 PHX
-80
+82
 53
 Nolan Yonkman
 ANA
@@ -1196,5 +1208,5 @@ BUF
 1
 Marek Zidlicky
 NJD
-79
-40
+81
+42

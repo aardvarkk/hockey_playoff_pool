@@ -1,0 +1,44 @@
+{:ANA=>15.10088, :BOS=>16.08424, :BUF=>0.0, :CGY=>0.0, :CAR=>0.0, :CHI=>8.7342, :COL=>13.4541, :CBJ=>8.42684, :DAL=>6.7981, :DET=>6.6904, :EDM=>0.0, :FLA=>0.0, :LAK=>8.83852, :MIN=>7.83098, :MTL=>10.10828, :NSH=>0.0, :NJD=>0.0, :NYI=>0.0, :NYR=>10.96102, :OTT=>0.0, :PHI=>9.19088, :PHX=>0.0, :PIT=>14.00354, :SJS=>12.086, :STL=>12.83026, :TBL=>10.12732, :TOR=>0.0, :VAN=>0.0, :WSH=>0.0, :WPG=>0.0}
+Round Common Outcome 1: ["[:COL, :STL, :ANA, :SJS, :BOS, :TBL, :PIT, :NYR]", 2298]
+Round Common Outcome 2: ["[:COL, :STL, :ANA, :SJS, :BOS, :MTL, :PIT, :NYR]", 2168]
+Round Common Outcome 3: ["[:COL, :STL, :ANA, :SJS, :BOS, :MTL, :PIT, :PHI]", 1612]
+Round Common Outcome 1: ["[:COL, :ANA, :BOS, :PIT]", 3111]
+Round Common Outcome 2: ["[:STL, :ANA, :BOS, :PIT]", 2875]
+Round Common Outcome 3: ["[:COL, :SJS, :BOS, :PIT]", 1833]
+Round Common Outcome 1: ["[:ANA, :BOS]", 6316]
+Round Common Outcome 2: ["[:COL, :BOS]", 4272]
+Round Common Outcome 3: ["[:ANA, :PIT]", 3912]
+Round Common Outcome 1: ["[:BOS]", 11500]
+Round Common Outcome 2: ["[:ANA]", 9398]
+Round Common Outcome 3: ["[:PIT]", 6031]
+FORWARDS
+{:name=>"Sidney Crosby", :team=>"PIT", :gp=>80, :pts=>104, :ppg=>1.3, :playoff_pts=>18.204602}
+{:name=>"Ryan Getzlaf", :team=>"ANA", :gp=>77, :pts=>87, :ppg=>1.12987012987013, :playoff_pts=>17.06203324675325}
+{:name=>"Evgeni Malkin", :team=>"PIT", :gp=>60, :pts=>72, :ppg=>1.2, :playoff_pts=>16.804247999999998}
+{:name=>"Corey Perry", :team=>"ANA", :gp=>81, :pts=>82, :ppg=>1.0123456790123457, :playoff_pts=>15.287310617283952}
+{:name=>"James Neal", :team=>"PIT", :gp=>59, :pts=>61, :ppg=>1.0338983050847457, :playoff_pts=>14.47823627118644}
+{:name=>"David Krejci", :team=>"BOS", :gp=>80, :pts=>69, :ppg=>0.8625, :playoff_pts=>13.872657000000002}
+{:name=>"Matt Duchene", :team=>"COL", :gp=>71, :pts=>70, :ppg=>0.9859154929577465, :playoff_pts=>13.264605633802818}
+{:name=>"Jarome Iginla", :team=>"BOS", :gp=>78, :pts=>61, :ppg=>0.782051282051282, :playoff_pts=>12.578700512820514}
+{:name=>"Patrice Bergeron", :team=>"BOS", :gp=>80, :pts=>62, :ppg=>0.775, :playoff_pts=>12.465286}
+{:name=>"Chris Kunitz", :team=>"PIT", :gp=>78, :pts=>68, :ppg=>0.8717948717948718, :playoff_pts=>12.208214358974358}
+{:name=>"Milan Lucic", :team=>"BOS", :gp=>80, :pts=>59, :ppg=>0.7375, :playoff_pts=>11.862127000000001}
+{:name=>"Alexander Steen", :team=>"STL", :gp=>68, :pts=>62, :ppg=>0.9117647058823529, :playoff_pts=>11.698178235294119}
+{:name=>"Joe Pavelski", :team=>"SJS", :gp=>82, :pts=>79, :ppg=>0.9634146341463414, :playoff_pts=>11.643829268292682}
+{:name=>"Paul Stastny", :team=>"COL", :gp=>71, :pts=>60, :ppg=>0.8450704225352113, :playoff_pts=>11.369661971830986}
+{:name=>"Joe Thornton", :team=>"SJS", :gp=>82, :pts=>76, :ppg=>0.926829268292683, :playoff_pts=>11.201658536585366}
+{:name=>"Steven Stamkos", :team=>"TBL", :gp=>37, :pts=>40, :ppg=>1.0810810810810811, :playoff_pts=>10.948454054054054}
+DEFENSE
+{:name=>"Zdeno Chara", :team=>"BOS", :gp=>77, :pts=>40, :ppg=>0.5194805194805194, :playoff_pts=>8.35544935064935}
+{:name=>"Kris Letang", :team=>"PIT", :gp=>37, :pts=>22, :ppg=>0.5945945945945946, :playoff_pts=>8.32642918918919}
+{:name=>"Torey Krug", :team=>"BOS", :gp=>79, :pts=>40, :ppg=>0.5063291139240507, :playoff_pts=>8.143918987341774}
+{:name=>"Alex Pietrangelo", :team=>"STL", :gp=>81, :pts=>51, :ppg=>0.6296296296296297, :playoff_pts=>8.078311851851852}
+{:name=>"Tyson Barrie", :team=>"COL", :gp=>64, :pts=>38, :ppg=>0.59375, :playoff_pts=>7.988371875}
+{:name=>"Matt Niskanen", :team=>"PIT", :gp=>81, :pts=>46, :ppg=>0.5679012345679012, :playoff_pts=>7.952627654320986}
+{:name=>"Cam Fowler", :team=>"ANA", :gp=>70, :pts=>36, :ppg=>0.5142857142857142, :playoff_pts=>7.766166857142856}
+{:name=>"Victor Hedman", :team=>"TBL", :gp=>75, :pts=>55, :ppg=>0.7333333333333333, :playoff_pts=>7.426701333333332}
+GOALIES
+{:name=>"Tuukka Rask", :team=>"BOS", :gp=>58, :pts=>79, :ppg=>1.3620689655172413, :playoff_pts=>21.907844137931036}
+{:name=>"Jonas Hiller", :team=>"ANA", :gp=>50, :pts=>63, :ppg=>1.26, :playoff_pts=>19.0271088}
+{:name=>"Marc-Andre Fleury", :team=>"PIT", :gp=>64, :pts=>83, :ppg=>1.296875, :playoff_pts=>18.160840937499998}
+{:name=>"Semyon Varlamov", :team=>"COL", :gp=>63, :pts=>84, :ppg=>1.3333333333333333, :playoff_pts=>17.9388}

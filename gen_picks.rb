@@ -164,18 +164,18 @@ player_sets.each do |key,ps|
     # We reward people who played the whole season
     # f[:playoff_pts] *= f[:gp].to_f / 82
 
-    # We ignore people who played less than half a season
-    f[:playoff_pts] *= f[:gp] >= 41 ? 1 : 0
+    # We ignore people who didn't play much
+    f[:playoff_pts] *= f[:gp] >= 30 ? 1 : 0
   end
 
   tops[key] = ps.sort_by{|p| p[:playoff_pts]}.reverse
 end
 
 puts "FORWARDS"
-puts tops[:fwd][0..9]
+puts tops[:fwd][0..15]
 puts "DEFENSE"
-puts tops[:def][0..3]
+puts tops[:def][0..7]
 puts "GOALIES"
-puts tops[:gls][0..1]
+puts tops[:gls][0..3]
 
 # Check for injuries...

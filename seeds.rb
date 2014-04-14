@@ -16,8 +16,8 @@ module Seeds
     LAK
     BOS
     DET
-    MTL
     TBL
+    MTL
     PIT
     CBJ
     NYR
