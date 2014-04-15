@@ -26,6 +26,7 @@ while true
         p.children[1].text,
         p.children[2].text.upcase,
         p.children[3].text.to_i,
+        # 2 * wins + 1 * shutouts
         2*p.children[5].text.to_i + p.children[13].text.to_i
       ]
     else
@@ -33,7 +34,8 @@ while true
         p.children[1].text,
         p.children[2].text.upcase,
         p.children[4].text.to_i,
-        p.children[7].text.to_i
+        # points + power-play points
+        p.children[7].text.to_i + p.children[11].text.to_i
       ]
     end
     f.puts(info.join("\n"))

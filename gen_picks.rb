@@ -1,83 +1,13 @@
 require './teams'
 require './seeds'
+require './simulations'
 
-sims = 50000
+sims = 100000
 
 @results = []
 
 @gp = {}
 Teams::SHORT.each{ |t| @gp[t] = 0.0 }
-
-def simulate_game(t1, r1, t2, r2)
-  # puts "Simulate Game"
-  # puts "#{t1} vs #{t2}"
-
-  w1 = w2 = false
-
-  # Increment games played
-  @gp[t1] += 1
-  @gp[t2] += 1
-
-  while (w1 == w2) do
-    rnd1 = rand(1..82)
-    rnd2 = rand(1..82)
-    w1 = rnd1 <= r1[0]
-    w2 = rnd2 <= r2[0]
-    # puts rnd1
-    # puts r1[0]
-    # puts rnd2
-    # puts r2[0]
-    # puts "#{w1} #{w2}"
-  end
-
-  if w1
-    # puts "#{t1} Wins Game"
-    return t1
-  else
-    # puts "#{t2} Wins Game"
-    return t2
-  end
-end
-
-def simulate_series(t1, t2)
-  # puts "Simulate Series"
-  # puts "#{t1} vs #{t2}"
-
-  # Play seven games and see who gets to four first
-  r1 = Teams::RECORDS[t1]
-  r2 = Teams::RECORDS[t2]
-
-  scores = {
-    t1 => 0,
-    t2 => 0
-  }
-
-  # Simulate games
-  while scores.values.max < 4
-    scores[simulate_game(t1, r1, t2, r2)] += 1
-    # puts "Series at #{scores}"
-  end
-
-  # Return a winner
-  if scores[t1] > scores[t2]
-    # puts "#{t1} Wins Series"
-    return t1
-  else
-    # puts "#{t2} Wins Series"
-    return t2
-  end
-end
-
-def simulate_round(matchups)
-  # puts "Simulate Round"
-  # puts matchups
-
-  winners = []
-  (0..matchups.length-1).step(2) do |i|
-    winners << simulate_series(matchups[i], matchups[i+1])
-  end
-  return winners
-end
 
 def load_players(filename)
   players = []
